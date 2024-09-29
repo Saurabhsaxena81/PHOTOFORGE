@@ -94,7 +94,10 @@ const Navbar = () => {
                   <input
                     type="checkbox"
                     className="theme-controller"
-                  
+                  checked={theme === "dark"}
+                    onChange={() =>
+                      setTheme(theme === "dark" ? "light" : "dark")
+                    }
                      // setThem
                   />
 

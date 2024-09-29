@@ -2,7 +2,7 @@
 
 **PhotoForge** is an easy-to-use background removal web application created using **React.js**. It allows users to remove backgrounds from their images with a simple drag-and-drop feature, powered by the **remove.bg** API. This project is deployed on **Vercel** for quick and smooth accessibility.
 
-![Logo](./public/light.png)  <!-- Optional logo or header image -->
+![Logo]<img src="./public/light.png" alt="Project Screenshot" width="600" height="400" />  <!-- Optional logo or header image -->
 
 ## Features
 
@@ -22,17 +22,17 @@ Check out the live demo: [PhotoForge](https://photoforge.vercel.app/)
 
 ### Uploading an Image
 
-![Uploading Image](./public/light.png)
+![Uploading Image]
+<img src="./public/upload.png" alt="Project Screenshot" width="600" height="400" />
 
 ### Processing the Image
 
-![Processing Image](./screenshots/processing.png)
+![Processing Image](./public/load.png)
+<img src="./public/load.png" alt="Project Screenshot" width="600" height="400" />
 
 ### Result Display 
+<img src="./public/loght.png" alt="Project Screenshot" width="600" height="400" />
 
-![Result Display](./public/light.png)
-
-![Result Display](./public/light.png)
 
 ## Technologies Used
 

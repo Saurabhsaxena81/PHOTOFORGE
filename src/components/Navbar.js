@@ -89,7 +89,11 @@ const Navbar = () => {
                   </div>
                 </li>
               ))}
-              <li className={`flex items-center w-[50px]  rounded-[30%] `}>
+              <li className={`flex items-center w-[50px]  rounded-[30%] `${
+              theme === "dark"
+                ? "bg-dark-theme text-light"
+                : "bg-light-theme text-dark"
+            }` `}>
                 <label className="swap swap-rotate">
                   <input
                     type="checkbox"

@@ -1,0 +1,31 @@
+/* theme.css */
+
+/* Light Mode Styles */
+body {
+  background-color: white; /* Light background */
+  color: black; /* Light text color */
+}
+
+/* Dark Mode Styles */
+body.dark {
+  background-color: black; /* Dark background */
+  color: white; /* Dark text color */
+}
+
+/* Custom Background Colors */
+.custom-dark-bg {
+  background-color: #1a1a1a !important;
+}
+
+.custom-light-bg {
+  background-color: #f5f5f5 !important;
+}
+
+/* Add other dark mode styles here */
+.custom-dark-bg {
+  background-color: #1a1a1a !important;
+}
+
+.custom-light-bg {
+  background-color: #f5f5f5 !important;
+}

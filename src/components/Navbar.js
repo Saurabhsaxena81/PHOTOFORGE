@@ -45,7 +45,7 @@ const Navbar = () => {
         scrolled
           ? `${
               theme === "dark"
-                ? "bg-black shadow-md bg-transparent"
+                ? "bg-dark-theme shadow-md bg-transparent"
                 : "bg-light-theme shadow-md"
             }`
           : "bg-transparent"

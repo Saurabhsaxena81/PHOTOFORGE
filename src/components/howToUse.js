@@ -7,7 +7,7 @@ export default function HowToUse({ theme }) {
 
   return (
     <main
-      className={` flex min-h-screen flex-col items-center p-4 md:p-24 max-sm:m-12 ${
+      className={` flex min-h-screen flex-col flex-wrap items-center p-4 md:p-24 max-sm:m-12 ${
         theme === "dark"
           ? "bg-dark-theme text-light"
           : "bg-light-theme text-dark"
@@ -31,7 +31,7 @@ export default function HowToUse({ theme }) {
             whileHover={{ scale: 1.07 }}
             whileTap={{ scale: 0.4 }}
             transition={{ type: "spring", stiffness: 200, damping: 13 }}
-            className={`w-full md:w-[370px] h-[180px] rounded-2xl p-6 flex gap-5 mt-6 md:mt-0 
+            className={`w-full md:w-[320px] h-[180px] rounded-2xl p-6 flex gap-5 mt-6 md:mt-0 
              bg-opacity-50 bg-gray-100  `}
           >
             <h1 className="text-yellow-400 font-extrabold text-[42px]">

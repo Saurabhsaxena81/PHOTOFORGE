@@ -69,12 +69,16 @@ const Navbar = () => {
         </Link>
 
         {/* Hamburger Menu for Small Screens */}
-        <div className="md:hidden">
+        <div className={`md:hidden p-11 px-20 py-0.5 ${
+            theme === "dark"
+              ? "bg-dark-theme text-light"
+              : "bg-light-theme text-dark"
+          }`}>
           <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
-              <AiOutlineClose className="text-white w-8 h-8" />
+              <AiOutlineClose className=" w-8 h-8  bg-slate-600 rounded-md" />
             ) : (
-              <AiOutlineMenu className="text-white w-8 h-8" />
+              <AiOutlineMenu className=" w-8 h-8" />
             )}
           </button>
         </div>
@@ -107,7 +111,7 @@ const Navbar = () => {
                 </div>
               </li>
             ))}
-            <li className="flex items-center w-[50px] justify-center">
+            <li className="flex items-center w-[50px] justify-center  hover:text-yellow-600 transition-colors duration-300">
               <label className="swap swap-rotate">
                 <input
                   type="checkbox"

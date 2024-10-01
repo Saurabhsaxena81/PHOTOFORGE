@@ -69,7 +69,7 @@ const Navbar = () => {
         </Link>
 
         {/* Hamburger Menu for Small Screens */}
-        <div className={`md:hidden p-11 px-20 py-0.5 ${
+        <div className={`md:hidden  ${
             theme === "dark"
               ? "bg-dark-theme text-light"
               : "bg-light-theme text-dark"

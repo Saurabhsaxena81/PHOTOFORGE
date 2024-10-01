@@ -10,7 +10,7 @@ import { ThemeProvider } from "./components/ThemeContext";
 export default function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   return (
-    <Div className="overflow-x-hidden">
+    <Div className="overflow-x-hidden overflow-y-hidden">
       <ThemeProvider>
         <Navbar theme={theme} setTheme={setTheme} />
         <Home theme={theme} />

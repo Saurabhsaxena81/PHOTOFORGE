@@ -51,7 +51,7 @@ const Navbar = () => {
                 ? "bg-black shadow-md"
                 : "bg-light-theme shadow-md"
             }`
-          : "bg-transparent"
+          : ""
       }`}
     >
       <div className="max-w-7xl mx-auto px-8 sm:px-6 py-3 flex justify-between items-center">

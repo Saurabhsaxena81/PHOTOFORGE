@@ -13,8 +13,7 @@ export default function Home({ theme }) {
     setShowOverlay(true);
     const apiKey = process.env.REACT_APP_API_KEY;
     const url = process.env.REACT_APP_API_URI;
-    // const apiKey = "ULVe373XWqoTamTiznrayVr5";
-    // const url = "https://api.remove.bg/v1.0/removebg";
+  
 
     // console.log(apiKey);
     const formData = new FormData();
